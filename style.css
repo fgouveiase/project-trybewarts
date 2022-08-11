@@ -43,3 +43,7 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+#div6 {
+  display: flex;
+}
