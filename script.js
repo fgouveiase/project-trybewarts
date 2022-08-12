@@ -7,3 +7,9 @@ botao.addEventListener('click', () => {
     alert('Olá, Tryber!');
   } else { alert('Email ou senha inválidos.'); }
 });
+
+const check = document.querySelector('#agreement');
+
+check.addEventListener('click', () => {
+  document.querySelector('#submit-btn').disabled = false;
+});
